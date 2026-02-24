@@ -1,9 +1,12 @@
 docker
 https://docs.docker.jp/engine/reference/builder.html //リファレンス
 
-docker build -t my-app-env:v1 . //ビルド時のみ、-t でイメージの名前を付ける . でコンテキストの設定
-docker run -it --rm my-app-env:v1 //イメージからコンテナの作成、-itでキーボード入力、--rmで停止したら削除する
-
+docker compose up -d コマンドを実行
+docker exec -it react-todo-app sh コマンドでコンテナの仮想環境にアクセス
+npm create vite@latest 
+cd vite-project
+npm install
+npm run dev
 
 Dev Container
 https://blog.future.ad.jp/-vscode-docker-expansio-

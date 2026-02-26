@@ -8,6 +8,12 @@ cd vite-project
 npm install
 npm run dev
 
+2回目以降
+docker compose up -d コマンドを実行
+docker exec -it react-todo-app sh コマンドでコンテナの仮想環境にアクセス
+cd vite-project
+npm run dev
+
 Dev Container
 https://blog.future.ad.jp/-vscode-docker-expansio-
 

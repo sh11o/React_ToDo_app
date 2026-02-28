@@ -17,3 +17,19 @@ npm run dev
 Dev Container
 https://blog.future.ad.jp/-vscode-docker-expansio-
 
+supabase
+https://supabase.com/docs/guides/getting-started/quickstarts/reactjs
+pass: e4qHms6iIC6Ylrdv
+API URL: https://vdcrdlftyaocnuafmzxf.supabase.co
+publish key : sb_publishable_e1Gzb6YCwM2r8rdsSDT5Rw_nYqF31ZN
+//エラー処理
+RLS (Row Level Security) がONで、権限がなかった。
+PolicyのTarget Rolesをキチンの設定する
+uuidは自動的に保管されるようにする
+
+supabaseから非同期にデータを取得する際にisLoading...という出力をする方法
+https://qiita.com/course_k/items/82b418d4279d28d3cf31
+
+firebase
+https://firebase.google.com/docs/hosting/quickstart?hl=ja
+firebase login --no-localhost

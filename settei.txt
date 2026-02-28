@@ -30,6 +30,5 @@ uuidは自動的に保管されるようにする
 supabaseから非同期にデータを取得する際にisLoading...という出力をする方法
 https://qiita.com/course_k/items/82b418d4279d28d3cf31
 
-firebase
-https://firebase.google.com/docs/hosting/quickstart?hl=ja
-firebase login --no-localhost
+tailwind
+https://tailwindcss.com/docs/installation/using-vite

@@ -69,7 +69,7 @@ function App() {
           <p>学習時間 <input type='text' onChange={onChangeTime} value={time} /> 時間(h)</p>
           <p>入力されている学習内容 : {title}</p>
           <p>入力されている学習時間 : {time}</p>
-          <button onClick={onClickButton}>登録</button>
+          <button onClick={onClickButton} className='btn btn-primary'>登録</button>
           {error && <p>{error}</p>}
         </div>
         <div>
@@ -78,7 +78,7 @@ function App() {
               <p key={content.id}>| {content.title} | {content.time} |</p>
             ))
           }
-          <p>合計時間 : {sumTime} 時間</p>
+          <p className="text-3xl font-bold underline">合計時間 : {sumTime} 時間</p>
         </div>
       </>
     )
